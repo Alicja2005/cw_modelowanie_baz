@@ -1,0 +1,8 @@
+Firma organizująca eventy
+kontrahent(id_kontrahent, nazwa, typ, nip, adres, telefon, email)
+
+pracownik(id_pracownika, imie, nazwisko, PESEL, data_ur, telefon, email, dział, pensja)
+
+event(id_eventu, id_kontrahent, nazwa, data_eventu, adres, status)
+
+finanse(id_finanse, id_event, id_kontrahent, typ_dokumentu)
